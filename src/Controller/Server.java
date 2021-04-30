@@ -57,7 +57,7 @@ public class Server implements GameConstants {
 					+ "Skip - When a player places this card, the next player has to skip their turn. \r\n"
 					+ "Draw Two - When a person places this card, the next player will have to pick up two cards. \r\n"
 					+ "Wild - This card represents all four colors, and can be placed on any card. The player has to state which color it will represent for the next player. \r\n"
-					+ "Wild Draw Four - The next player has to draw four cards.");
+					+ "Wild Draw Four - The next player has to draw four cards. The player has to state which color it will represent for the next player.");
 		}
 		
 		if(n==0) {
