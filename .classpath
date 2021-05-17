@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/zarintasnimbiash/Desktop/KRYPTO/10th (TENTH) SEMESTER/jar_files1/byte-buddy-1.11.0.jar"/>
+	<classpathentry kind="lib" path="/Users/zarintasnimbiash/Desktop/KRYPTO/10th (TENTH) SEMESTER/jar_files1/byte-buddy-agent-1.11.0.jar"/>
+	<classpathentry kind="lib" path="/Users/zarintasnimbiash/Desktop/KRYPTO/10th (TENTH) SEMESTER/jar_files1/mockito-core-3.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/zarintasnimbiash/Desktop/KRYPTO/10th (TENTH) SEMESTER/jar_files1/objenesis-3.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
