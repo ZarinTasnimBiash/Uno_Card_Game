@@ -37,10 +37,7 @@ public class PlayerTest {
 		assertNotEquals("ami", p.getName());
 		
 	}
-	@Test
-	public void obtainCardTest() {
-		p.obtainCard(ac);
-	}
+	
 	@Test
 	public void getAllCardsTest() {
 		LinkedList<UNOCard> list=new LinkedList<UNOCard>();
@@ -55,6 +52,7 @@ public class PlayerTest {
 		list.add(nc);
 		assertEquals(list, p.getAllCards());
 	}
+	
 	@Test
 	public void getTotalCardsTest() {
 	

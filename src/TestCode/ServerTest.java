@@ -79,19 +79,5 @@ public class ServerTest {
 	public void isHisTurnTest() {
 		assertEquals(false, server.isHisTurn(ac));
 	}
-/*	@Test
-	public void submitSaidUNOTest() {
-		server.submitSaidUNO();
-	}
-	@Test
-	public void requestCardTest() {
-		server.requestCard();
-	}
-	@Test
-	public void playThisCardTest() {
-		server.playThisCard(nc);
-		server.playThisCard(ac);
-		server.playThisCard(wc);
-	}*/
 
 }

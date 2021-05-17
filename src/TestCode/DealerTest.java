@@ -32,18 +32,6 @@ public class DealerTest {
 		assertEquals(108,d.shuffle().size());
 	}
 	
-	/*@Test
-	public void spreadOutTest() {
-		UNOCard c=Mockito.mock(UNOCard.class);
-		Player p1=Mockito.mock(Player.class);
-		Player p2=Mockito.mock(Player.class);
-		Mockito.doNothing().when(p1).obtainCard(c);
-		Mockito.doNothing().when(p1).obtainCard(c);
-		Player[] p= {p1,p2};
-		d.shuffle();
-		d.spreadOut(p);
-	}*/
-	
 	@Test
 	public void getCardTest() {
 	

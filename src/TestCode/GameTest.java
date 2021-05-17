@@ -93,8 +93,5 @@ public class GameTest {
 		int[] m= {0,0,0};
 		assertArrayEquals(m, nr);
 	}
-	
-	
-	
 
 }
